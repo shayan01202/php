@@ -1,0 +1,41 @@
+/*
+Theme Name: Local Shop Theme
+Theme URI: https://yourshop.com
+Author: Sahil and Nitish
+Description: Custom theme for local business shop
+Version: 1.0
+Text Domain: localshop
+*/
+
+:root {
+  --primary: #2a4365;
+  --secondary: #f6ad55;
+  --light: #f7fafc;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.site-header {
+  background: var(--primary);
+  color: white;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.woocommerce ul.products li.product {
+  background: var(--light);
+  padding: 1rem;
+  border-radius: 8px;
+}
